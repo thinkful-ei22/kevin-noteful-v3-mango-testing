@@ -306,6 +306,7 @@ describe('Noteful API - Notes', function () {
         })
         .then(count => {
           expect(count).to.equal(0);
+          
         });
     });
 
